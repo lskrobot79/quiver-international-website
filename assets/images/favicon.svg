@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Quiver body - leather cylinder -->
+  <path d="M22 58 C18 58 16 56 16 52 L16 20 C16 16 18 14 22 14 L32 12 C36 12 38 14 38 18 L38 54 C38 58 36 60 32 60 L22 58 Z" fill="#8B5A2B" stroke="#5D3A1A" stroke-width="1.5"/>
+
+  <!-- Quiver leather texture/stitching -->
+  <path d="M18 18 L18 54" stroke="#6B4423" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <path d="M36 16 L36 56" stroke="#A0724A" stroke-width="0.5" stroke-dasharray="2,2"/>
+
+  <!-- Top rim band -->
+  <ellipse cx="27" cy="13" rx="12" ry="3" fill="#6B4423" stroke="#5D3A1A" stroke-width="1"/>
+
+  <!-- Bottom decorative band -->
+  <path d="M16 50 Q27 52 38 50" stroke="#5D3A1A" stroke-width="2" fill="none"/>
+
+  <!-- Buckle/strap attachment -->
+  <rect x="32" y="24" width="6" height="8" rx="1" fill="#C4A574" stroke="#8B7355" stroke-width="0.5"/>
+  <rect x="34" y="26" width="2" height="4" fill="#5D3A1A"/>
+
+  <!-- Strap -->
+  <path d="M38 28 Q48 20 52 8" stroke="#8B5A2B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M38 28 Q48 20 52 8" stroke="#A0724A" stroke-width="1" fill="none" stroke-linecap="round"/>
+
+  <!-- Arrow 1 (back left) -->
+  <line x1="20" y1="8" x2="20" y2="48" stroke="#D4B896" stroke-width="1.5"/>
+  <!-- Fletching -->
+  <path d="M17 10 Q20 12 20 8 Q20 12 23 10" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+  <path d="M17 14 Q20 16 20 12 Q20 16 23 14" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+
+  <!-- Arrow 2 (center left) -->
+  <line x1="24" y1="6" x2="24" y2="46" stroke="#D4B896" stroke-width="1.5"/>
+  <!-- Fletching -->
+  <path d="M21 8 Q24 10 24 6 Q24 10 27 8" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+  <path d="M21 12 Q24 14 24 10 Q24 14 27 12" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+
+  <!-- Arrow 3 (center) -->
+  <line x1="28" y1="4" x2="28" y2="44" stroke="#D4B896" stroke-width="1.5"/>
+  <!-- Fletching -->
+  <path d="M25 6 Q28 8 28 4 Q28 8 31 6" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+  <path d="M25 10 Q28 12 28 8 Q28 12 31 10" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+
+  <!-- Arrow 4 (center right) -->
+  <line x1="32" y1="5" x2="32" y2="45" stroke="#D4B896" stroke-width="1.5"/>
+  <!-- Fletching -->
+  <path d="M29 7 Q32 9 32 5 Q32 9 35 7" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+  <path d="M29 11 Q32 13 32 9 Q32 13 35 11" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+
+  <!-- Arrow 5 (back right) -->
+  <line x1="36" y1="7" x2="36" y2="47" stroke="#D4B896" stroke-width="1.5"/>
+  <!-- Fletching -->
+  <path d="M33 9 Q36 11 36 7 Q36 11 39 9" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+  <path d="M33 13 Q36 15 36 11 Q36 15 39 13" fill="#C75050" stroke="#8B3030" stroke-width="0.5"/>
+</svg>
