@@ -63,13 +63,7 @@
 
                 <div class="give-form-wrapper">
                     <div class="give-form-container">
-                        <iframe
-                            src="https://anchorcrm.io/donate/quiver-international/a-e-wright"
-                            style="width: 100%; height: 700px; border: none; display: block;"
-                            title="Donation Form for Aden and Evelyn Wright"
-                            allow="payment"
-                            loading="lazy"
-                        ></iframe>
+                        <div id="anchorcrm-donate"></div>
                     </div>
                 </div>
             </div>
@@ -163,6 +157,24 @@
             navMenu.classList.toggle('active');
             navToggle.classList.toggle('active');
         });
+
+        // AnchorCRM inline donation form with auto-resize
+        (function(){
+            const container = document.getElementById('anchorcrm-donate');
+            const frame = document.createElement('iframe');
+            frame.src = 'https://anchorcrm.io/donate/quiver-international/a-e-wright?embed=true';
+            frame.title = 'Donation Form for Aden and Evelyn Wright';
+            frame.setAttribute('allow', 'payment');
+            frame.setAttribute('scrolling', 'no');
+            frame.setAttribute('loading', 'lazy');
+            frame.style.cssText = 'width:100%;border:none;border-radius:12px;min-height:600px;background:transparent;display:block';
+            window.addEventListener('message', (e) => {
+                if (e.data && e.data.type === 'anchorcrm-form-resize' && e.data.height) {
+                    frame.style.height = (e.data.height + 20) + 'px';
+                }
+            });
+            container.appendChild(frame);
+        })();
     </script>
 </body>
 </html>
