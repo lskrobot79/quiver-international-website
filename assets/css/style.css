@@ -757,6 +757,85 @@ ul {
     gap: 0.75rem;
 }
 
+/* Campaign Cards */
+.campaign-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.campaign-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    padding: 2rem;
+    border-top: 4px solid var(--color-accent);
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+}
+
+a.campaign-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.10), 0 8px 10px -6px rgb(0 0 0 / 0.08);
+}
+
+a.campaign-card:hover .campaign-cta {
+    color: var(--color-primary-dark);
+}
+
+.campaign-cta {
+    display: inline-block;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-top: 0.5rem;
+    transition: var(--transition);
+}
+
+.back-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
+
+.campaign-label {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-primary);
+    background: var(--color-background-warm);
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    margin-bottom: 0.875rem;
+}
+
+.campaign-card h3 {
+    font-family: var(--font-primary);
+    margin-bottom: 0.75rem;
+}
+
+.campaign-card p {
+    color: var(--color-text-light);
+    margin-bottom: 1.5rem;
+}
+
+.campaign-card .btn {
+    width: 100%;
+}
+
+.campaign-card .btn[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 /* Other Giving Options */
 .other-giving {
     background: white;
