@@ -804,6 +804,23 @@ a.campaign-card:hover .campaign-cta {
     text-decoration: underline;
 }
 
+/* Quick Donate band — appears between hero and main give section */
+.quick-donate {
+    background: var(--color-background-warm);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.quick-donate-label {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-light);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
 .campaign-label {
     display: inline-block;
     font-size: 0.75rem;
