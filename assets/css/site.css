@@ -174,7 +174,7 @@ img{max-width:100%;display:block}
 }
 .hero-meta i{font-style:normal;color:var(--saffron-dk)}
 
-/* ── photo plates (drop real photography in here) ───────── */
+/* ── texture plates (abstract brand art — site uses no photography) ── */
 .plate{
   position:relative;overflow:hidden;background:var(--cream-deep);
   border-radius:2px;isolation:isolate;
@@ -191,12 +191,14 @@ img{max-width:100%;display:block}
   background-image:radial-gradient(circle at 1px 1px, rgba(34,28,20,.9) 1px, transparent 0);
   background-size:7px 7px;
 }
-.plate-tag{
-  position:absolute;left:1rem;bottom:1rem;z-index:2;
-  font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700;
-  color:var(--cream);background:rgba(34,28,20,.62);backdrop-filter:blur(6px);
-  padding:.5em .85em;border-radius:999px;
+.plate-mono{
+  position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;
+  font-family:var(--display);font-style:italic;font-weight:500;
+  font-size:clamp(2.4rem,4.5vw,3.4rem);letter-spacing:.03em;color:var(--ink);
+  font-variation-settings:"opsz" 144,"SOFT" 30,"WONK" 1;
 }
+.plate-mono i{color:var(--brown);margin-inline:.16em}
+.plate-mono-lg{font-size:clamp(7rem,13vw,11rem);opacity:.8}
 .plate-tall{aspect-ratio:3/4}
 .plate-wide{aspect-ratio:16/10}
 .plate-sq{aspect-ratio:1}
