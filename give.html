@@ -1,204 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Give | Quiver International</title>
-    <meta name="description" content="Partner with Quiver International. Your donation helps equip individuals and communities through education, training, and holistic development.">
-    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Give | Quiver International</title>
+<meta name="description" content="Your generosity makes our work possible. Choose who to partner with and give to Quiver International — a 501(c)(3) nonprofit.">
+<meta name="theme-color" content="#FDF8F0">
+<meta name="color-scheme" content="light">
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Karla:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar scrolled">
-        <div class="container">
-            <a href="index.html" class="logo">
-                <img src="assets/images/favicon.svg" alt="" class="logo-icon">
-                <span class="logo-text">QUIVER</span>
-                <span class="logo-accent">international</span>
-            </a>
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#programs">Programs</a></li>
-                <li><a href="index.html#impact">Impact</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-                <li><a href="give.html" class="btn btn-primary">Give</a></li>
-            </ul>
-        </div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="index.html" class="brandmark" aria-label="Quiver International, home">
+      <img src="assets/images/quiver-international-logo.png" alt="Quiver International">
+    </a>
+
+    <nav>
+      <ul class="nav-links" id="menu">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#programs">Programs</a></li>
+        <li><a href="index.html#impact">Impact</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="give.html" class="nav-give">Give</a></li>
+      </ul>
     </nav>
 
-    <!-- Give Hero -->
-    <header class="page-hero">
-        <div class="container">
-            <h1>Partner With Us</h1>
-            <p>Your generosity makes our work possible. Every gift helps equip individuals and transform communities.</p>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ══ HERO ═════════════════════════════════════════════ -->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Give</p>
+    <h1>Partner <em>with</em> us</h1>
+    <p class="lede">Your generosity makes our work possible. Every gift helps equip individuals and transform communities.</p>
+  </div>
+</section>
+
+<!-- ══ CHOOSE A PARTNER ═════════════════════════════════ -->
+<section class="sec" style="padding-top:0;padding-bottom:clamp(3.5rem,7vw,6rem)">
+  <div class="wrap">
+    <div class="sec-head rv" style="margin-bottom:clamp(1.5rem,3vw,2.5rem)">
+      <div>
+        <p class="eyebrow">Step one</p>
+        <h2>Choose who to <em>give</em> to</h2>
+      </div>
+      <p>Gifts can be directed toward the work of a specific partner family, or given to Quiver International's programs as a whole.</p>
+    </div>
+
+    <div class="partners rv">
+      <a class="partner" href="give-wright.html">
+        <div class="plate plate--b"><span class="plate-tag">Photograph — the Wrights</span></div>
+        <div class="partner-body">
+          <h3>Aden &amp; Evelyn Wright</h3>
+          <p>Partner with the Wright family. Your gift supports their work.</p>
+          <span class="go">Give to the Wrights <span aria-hidden="true">&rarr;</span></span>
         </div>
-    </header>
+      </a>
 
-    <!-- Give Section -->
-    <section class="section give-section">
-        <div class="container">
-            <div class="give-content">
-                <div class="give-info">
-                    <h2>Make a Difference Today</h2>
-                    <p>Your donation to Quiver International directly supports our programs in education, leadership training, health and wellness, literacy development, and community building.</p>
-
-                    <div class="give-impact">
-                        <h3>Your Impact</h3>
-                        <ul class="impact-list">
-                            <li>
-                                <span class="impact-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                </span>
-                                <span>Provide educational resources and training materials</span>
-                            </li>
-                            <li>
-                                <span class="impact-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                </span>
-                                <span>Support leadership and business development programs</span>
-                            </li>
-                            <li>
-                                <span class="impact-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                </span>
-                                <span>Fund health and wellness initiatives for families</span>
-                            </li>
-                            <li>
-                                <span class="impact-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                </span>
-                                <span>Enable literacy and language development projects</span>
-                            </li>
-                            <li>
-                                <span class="impact-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                </span>
-                                <span>Build stronger communities through holistic programs</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="tax-info">
-                        <p><strong>Tax-Deductible Giving</strong></p>
-                        <p>Quiver International is a registered 501(c)(3) nonprofit organization. Your donation is tax-deductible to the fullest extent allowed by law. You will receive a receipt for your records.</p>
-                        <p class="ein">EIN: 41-4699004</p>
-                    </div>
-                </div>
-
-                <div class="campaign-cards">
-                    <a href="give-wright.html" class="campaign-card">
-                        <h3>Aden &amp; Evelyn Wright</h3>
-                        <p>Partner with the Wright family. Your gift supports their work.</p>
-                        <span class="campaign-cta">Give to the Wrights →</span>
-                    </a>
-
-                    <a href="give-jeremy-krista.html" class="campaign-card">
-                        <h3>Jeremy &amp; Krista</h3>
-                        <p>Partner with Jeremy and Krista. Your gift supports their work.</p>
-                        <span class="campaign-cta">Give to Jeremy &amp; Krista →</span>
-                    </a>
-                </div>
-            </div>
+      <a class="partner" href="give-jeremy-krista.html">
+        <div class="plate plate--c"><span class="plate-tag">Photograph — Jeremy &amp; Krista</span></div>
+        <div class="partner-body">
+          <h3>Jeremy &amp; Krista</h3>
+          <p>Partner with Jeremy and Krista. Your gift supports their work.</p>
+          <span class="go">Give to Jeremy &amp; Krista <span aria-hidden="true">&rarr;</span></span>
         </div>
-    </section>
+      </a>
+    </div>
+  </div>
+</section>
 
-    <!-- Other Ways to Give -->
-    <section class="section other-giving">
-        <div class="container">
-            <div class="section-header">
-                <h2>Other Ways to Give</h2>
-            </div>
-            <div class="giving-options">
-                <div class="giving-option">
-                    <div class="giving-option-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
-                    </div>
-                    <h3>Check</h3>
-                    <p>Make checks payable to "Quiver International" and mail to our office address.</p>
-                </div>
-                <div class="giving-option">
-                    <div class="giving-option-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-                    </div>
-                    <h3>Monthly Giving</h3>
-                    <p>Become a sustaining partner with a recurring monthly gift that provides steady support.</p>
-                </div>
-                <div class="giving-option">
-                    <div class="giving-option-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                    </div>
-                    <h3>Corporate Partnership</h3>
-                    <p>Partner with us as a business or organization. Contact us to learn more.</p>
-                </div>
-            </div>
+<!-- ══ WHERE IT GOES ════════════════════════════════════ -->
+<section class="sec about" id="impact-of-giving">
+  <div class="wrap split">
+    <div class="rv">
+      <p class="eyebrow">Your gift at work</p>
+      <h2>Make a difference <em>today</em></h2>
+      <p>Your donation to Quiver International directly supports our programs in education, leadership training, health and wellness, literacy development, and community building.</p>
+
+      <h3 style="font-family:var(--display);font-size:1.3rem;font-weight:600;margin-top:2.2rem;letter-spacing:-.015em">Your Impact</h3>
+      <ul class="impact-list">
+        <li>Provide educational resources and training materials</li>
+        <li>Support leadership and business development programs</li>
+        <li>Fund health and wellness initiatives for families</li>
+        <li>Enable literacy and language development projects</li>
+        <li>Build stronger communities through holistic programs</li>
+      </ul>
+    </div>
+
+    <aside class="notice rv">
+      <h3>Tax-Deductible Giving</h3>
+      <p>Quiver International is a registered 501(c)(3) nonprofit organization. Your donation is tax-deductible to the fullest extent allowed by law. You will receive a receipt for your records.</p>
+      <p class="ein">EIN: 41-4699004</p>
+    </aside>
+  </div>
+</section>
+
+<!-- ══ OTHER WAYS ═══════════════════════════════════════ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <p class="eyebrow">Other ways to give</p>
+        <h2>Beyond a <em>one-time</em> gift</h2>
+      </div>
+      <p>If online giving isn't the right fit, there are several other ways to support the work.</p>
+    </div>
+
+    <div class="ways rv">
+      <div class="way">
+        <i>01</i>
+        <h3>Check</h3>
+        <p>Make checks payable to <strong>"Quiver International"</strong> and mail to our office address.</p>
+      </div>
+      <div class="way">
+        <i>02</i>
+        <h3>Monthly Giving</h3>
+        <p>Become a sustaining partner with a recurring monthly gift that provides steady support.</p>
+      </div>
+      <div class="way">
+        <i>03</i>
+        <h3>Corporate Partnership</h3>
+        <p>Partner with us as a business or organization. Contact us to learn more.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ HELP ═════════════════════════════════════════════ -->
+<section class="sec help">
+  <div class="wrap rv">
+    <h2>Questions about <em>giving?</em></h2>
+    <p>We're happy to help you find the best way to support our mission.</p>
+    <div class="help-cta">
+      <a href="tel:+13072058181" class="btn btn-solid">(307) 205-8181</a>
+      <a href="mailto:Admin@quiverinternational.org" class="btn btn-ghost">Email Us</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-mark">
+          <span class="brandmark"><img src="assets/images/quiver-international-logo.png" alt="Quiver International"></span>
         </div>
-    </section>
+        <p class="foot-tag">Whole People. Whole Communities. Whole World.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="index.html#impact">Impact</a></li>
+          <li><a href="give.html">Give</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+13072058181">(307) 205-8181</a></li>
+          <li><a href="mailto:Admin@quiverinternational.org">Admin@quiverinternational.org</a></li>
+          <li>Wyoming, USA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span>&copy; 2026 Quiver International. All rights reserved.</span>
+      <span>501(c)(3) nonprofit &middot; EIN 41-4699004 &middot; Donations are tax-deductible.</span>
+    </div>
+  </div>
+</footer>
 
-    <!-- Contact CTA -->
-    <section class="section cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Questions About Giving?</h2>
-                <p>We're happy to help you find the best way to support our mission.</p>
-                <div class="cta-buttons">
-                    <a href="tel:+13072058181" class="btn btn-outline btn-large">(307) 205-8181</a>
-                    <a href="mailto:Admin@quiverinternational.org" class="btn btn-primary btn-large">Email Us</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <a href="index.html" class="logo">
-                        <span class="logo-text">Quiver</span>
-                        <span class="logo-accent">International</span>
-                    </a>
-                    <p>Whole People. Whole Communities. Whole World.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html#about">About</a></li>
-                        <li><a href="index.html#programs">Programs</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
-                        <li><a href="give.html">Give</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact</h4>
-                    <p><a href="tel:+13072058181">(307) 205-8181</a></p>
-                    <p><a href="mailto:Admin@quiverinternational.org">Admin@quiverinternational.org</a></p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Quiver International. All rights reserved.</p>
-                <p>Quiver International is a 501(c)(3) nonprofit organization. EIN: 41-4699004. Donations are tax-deductible.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Mobile navigation toggle
-        const navToggle = document.querySelector('.nav-toggle');
-        const navMenu = document.querySelector('.nav-menu');
-
-        navToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-            navToggle.classList.toggle('active');
-        });
-    </script>
+<script src="assets/js/site.js"></script>
 </body>
 </html>
