@@ -93,14 +93,8 @@ img{max-width:100%;display:block}
 /* Supplied logo file, placed unmodified. The PNG is a centred 1019x394
    lockup inside a 1254x1254 square; the wrapper crops the padding in CSS
    so the source file is never altered. */
-.brandmark{
-  position:relative;display:block;overflow:hidden;z-index:2;
-  aspect-ratio:2.5863;width:clamp(132px,13vw,162px);flex:none;
-}
-.brandmark img{
-  position:absolute;left:50%;top:50%;width:123.06%;max-width:none;
-  transform:translate(-50.36%,-49.28%);
-}
+.brandmark{display:block;width:clamp(140px,13vw,176px);flex:none;z-index:2;position:relative}
+.brandmark img{width:100%;height:auto}
 
 .nav-links{display:flex;align-items:center;gap:2.1rem;list-style:none}
 .nav-links a{
@@ -337,10 +331,9 @@ textarea{resize:vertical;min-height:7rem}
 /* ── footer ────────────────────────────────────────────── */
 footer{background:var(--ink);color:#B8AB93;padding-block:clamp(3rem,6vw,4.5rem) 2rem}
 .foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:clamp(2rem,4vw,3rem);padding-bottom:2.8rem;border-bottom:1px solid rgba(233,223,203,.14)}
-/* the logo ships with its cream ground baked in, so on the dark footer it
-   sits on a deliberate cream plate rather than being recoloured */
-.foot-mark{background:var(--cream);padding:1rem 1.25rem;width:max-content;border-radius:2px}
-.foot-mark .brandmark{width:clamp(150px,16vw,178px)}
+/* footer uses the light (cream-ink) logo on transparent ground */
+.foot-mark{width:max-content}
+.foot-mark .brandmark{width:clamp(160px,16vw,190px)}
 .foot-tag{margin-top:1.4rem;font-family:var(--display);font-style:italic;font-size:1.05rem;color:#E9DFCB;max-width:26ch}
 footer h5{font-size:.68rem;letter-spacing:.19em;text-transform:uppercase;color:var(--saffron);font-weight:700;margin-bottom:1.1rem;font-family:var(--sans)}
 footer ul{list-style:none;display:grid;gap:.6rem}
